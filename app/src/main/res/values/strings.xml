@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Pokedex</string>
+    <string name="url_poke_list">https://pokeapi.co/api/v2/pokemon</string>
+</resources>
