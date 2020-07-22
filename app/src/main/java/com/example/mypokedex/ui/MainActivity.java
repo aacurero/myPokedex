@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 
 import com.example.mypokedex.R;
 import com.example.mypokedex.adapter.PokedexAdapter;
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     pokemonData = pokedex.getResults();
                     mAdapter = new PokedexAdapter(MainActivity.this, pokemonData);
                     recyclerView.setAdapter(mAdapter);
+                    recyclerView.requestFocus();
                 }
             }
         });

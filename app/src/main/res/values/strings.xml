@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">My Pokedex</string>
     <string name="url_poke_list">https://pokeapi.co/api/v2/pokemon</string>
+    <string name="title_type">Tipo</string>
+    <string name="title_evolution">Evolución</string>
+    <string name="title_moves">Ataques</string>
+    <string name="title_skills">Habilidades</string>
+    <string name="title_places">Lugares</string>
 </resources>
